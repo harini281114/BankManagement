@@ -1,2 +1,26 @@
-# BankManagement
-Bank Management System built using Java and PostgreSQL. It allows users to view account details and transfer money securely using JDBC. Implements transaction management (commit/rollback) to ensure data consistency and simulates real-world banking operations.
+# Bank Management System
+
+A console-based Bank Management System developed using Java and PostgreSQL. The application allows users to manage bank accounts and perform secure transactions.
+
+## Features
+- View account details
+- Transfer money between accounts
+- Transaction management using commit & rollback
+- Database integration using JDBC
+
+## Tech Stack
+- Java
+- PostgreSQL
+- JDBC
+
+## How to Run
+1. Clone the repository
+2. Import project in IDE (VS Code / IntelliJ)
+3. Setup PostgreSQL database using schema.sql
+4. Update DB credentials in code
+5. Run Main.java
+
+## Project Highlights
+- Implemented real-time transaction handling
+- Ensured data consistency using database transactions
+- Designed modular and maintainable code
