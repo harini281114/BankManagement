@@ -2,6 +2,12 @@
 
 A console-based Bank Management System developed using Java and PostgreSQL. The application allows users to manage bank accounts and perform secure transactions.
 
+## Overview
+This project is a Java-based Bank Management System that simulates real-world banking operations using PostgreSQL and JDBC. It supports secure money transfer with transaction handling.
+
+## How It Works
+The system connects to PostgreSQL using JDBC. During transfer, it deducts money from one account and adds to another using transactions (commit/rollback) to ensure consistency.
+
 ## Features
 - View account details
 - Transfer money between accounts
